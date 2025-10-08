@@ -1,0 +1,1 @@
+// WAP in c++ demonstrate single inheritance

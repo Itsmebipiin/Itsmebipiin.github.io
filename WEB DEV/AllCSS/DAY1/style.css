@@ -1,0 +1,65 @@
+/*
+Note : here Elements are selected on the bases of tag */
+/* h1{
+    background-color: lightpink;
+}
+
+h2{
+    background-color: aqua;
+} */
+
+    /* Here Elements are selected on the bases of ID*/
+/* 
+#firstHead{
+    background-color: peru;
+}
+
+
+#firstList{
+    background-color: palevioletred;
+}
+
+#secondlist{
+    background-color: lightseagreen;
+} */
+
+/* class use for grouping  */
+/* .first{
+    background-color: blueviolet;
+} */
+
+/* Group Base selection */
+/* 
+h1, #firstHead, .first{
+    background-color: lightcoral;
+} */
+
+/* h1{
+    background-color: rgb(rgb(205, 70, 70), green, blue);
+} 
+
+h2{
+    background-color: hsl(hue, saturation, lightness);
+}
+
+h2{
+    background-color: #376472;
+} */
+
+/* font size
+h1{
+    font-size: 40 px;
+}
+
+ul{
+    font-size: 10px;
+}
+
+li{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 4rem;
+} */
+

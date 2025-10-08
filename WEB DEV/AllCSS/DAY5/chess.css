@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+
+}
+
+body{
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    background-color: bisque;
+}
+
+.white{
+    background-color: white;
+}
+
+.brown{
+    background-color: brown;
+}

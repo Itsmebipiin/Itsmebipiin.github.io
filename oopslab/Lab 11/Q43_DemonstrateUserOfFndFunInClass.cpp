@@ -1,0 +1,1 @@
+// WAP IN c++ to demonstrate user of friend function in a class

@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ☀️ Sun */
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow: 0px 0px 60px 30px rgba(255, 200, 0, 0.6);
+    position: relative;
+}
+
+/* 🌍 Earth Orbit */
+.earth-orbit{
+    height: 300px;
+    width: 300px;
+    border: 1px dotted yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotateEarth 10s linear infinite;
+}
+
+/* 🌍 Earth */
+.earth{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;   /* Earth starts at top */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 🌝 Moon Orbit */
+.moon-orbit{
+    height: 70px;
+    width: 70px;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotateMoon 3s linear infinite;
+}
+
+/* 🌝 Moon */
+.moon{
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Animations */
+@keyframes rotateEarth {
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+@keyframes rotateMoon {
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}

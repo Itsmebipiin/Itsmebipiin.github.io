@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ☀️ Sun */
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow: 0px 0px 60px 30px rgba(255, 200, 0, 0.6);
+    position: relative;
+}
+
+/* Generic orbit */
+.orbit{
+    border: 1px dotted yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Planet styles */
+.planet{
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Individual planets */
+.mercury-orbit { width: 160px; height: 160px; animation: rotate 4s linear infinite; }
+.mercury { width: 20px; height: 20px; background: gray; }
+
+.venus-orbit { width: 220px; height: 220px; animation: rotate 7s linear infinite; }
+.venus { width: 25px; height: 25px; background: gold; }
+
+.earth-orbit { width: 300px; height: 300px; animation: rotate 10s linear infinite; }
+.earth { width: 30px; height: 30px; background: blue; }
+
+/* 🌝 Moon orbit inside Earth */
+.moon-orbit{
+    width: 70px;
+    height: 70px;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 3s linear infinite;
+}
+.moon{
+    width: 12px;
+    height: 12px;
+    background: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mars-orbit { width: 400px; height: 400px; animation: rotate 15s linear infinite; }
+.mars { width: 28px; height: 28px; background: red; }
+
+/* Animation */
+@keyframes rotate {
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}

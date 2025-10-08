@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- You can use any icon library or fonts here -->
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Flipkart</div>
+        <input type="text" placeholder="Search for products, brands and more">
+        <div class="login">Login</div>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?laptop" alt="Product">
+            <h4>Laptop</h4>
+            <p>₹50,000</p>
+        </div>
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?mobile" alt="Product">
+            <h4>Smartphone</h4>
+            <p>₹15,000</p>
+        </div>
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?headphones" alt="Product">
+            <h4>Headphones</h4>
+            <p>₹2,000</p>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Flipkart Clone by Bipin. All rights reserved.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- You can use any icon library or fonts here -->
+    <style>
+        /* Basic inline styles to preview quickly */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #2874f0;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar input {
+            width: 40%;
+            padding: 8px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: url('https://source.unsplash.com/1200x300/?shopping') no-repeat center center;
+            background-size: cover;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .product-card {
+            width: 200px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Flipkart</div>
+        <input type="text" placeholder="Search for products, brands and more">
+        <div class="nav-right">
+                <span class="nav-item">Profile</span>
+            <span class="nav-item">Cart</span>
+            <span class="nav-item">Become a seller</span>
+        </div>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?laptop" alt="Product">
+            <h4>Laptop</h4>
+            <p>₹50,000</p>
+        </div>
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?mobile" alt="Product">
+            <h4>Smartphone</h4>
+            <p>₹15,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?headphones" alt="Product">
+            <h4>Headphones</h4>
+            <p>₹2,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?television" alt="Product">
+            <h4>Smart TV</h4>
+            <p>₹32,999</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?shoes" alt="Product">
+            <h4>Running Shoes</h4>
+            <p>₹2,499</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?refrigerator" alt="Product">
+            <h4>Refrigerator</h4>
+            <p>₹18,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://source.unsplash.com/200x150/?watch" alt="Product">
+            <h4>Smart Watch</h4>
+            <p>₹3,299</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Flipkart Clone by Bipin. All rights reserved.
+    </div>
+
+
+    <!--Java script-->
+
+
+    <!-- JavaScript -->
+    <script src="flipkart.js"></script>
+</body>
+</html>
