@@ -1,6 +1,0 @@
-x = int(input("Enter a: "))6
-7
-8
-9
-5
-6

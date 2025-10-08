@@ -1,1 +1,0 @@
-// Write a program in C++ to Demonstrate hierarchical inheritance
